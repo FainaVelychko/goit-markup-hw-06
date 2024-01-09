@@ -345,7 +345,6 @@ button {
 .footer-wrap {
   display: flex;
   flex-direction: column;
-  margin-bottom: 72px;
 }
 .footer-text {
   color: #f4f4fd;
@@ -646,6 +645,9 @@ button {
   .sub-wrap {
     margin-top: 72px;
   }
+  .footer-wrap {
+    margin-bottom: 72px;
+  }
 }
 
 @media (min-resolution: 192dpi) {
@@ -786,6 +788,7 @@ button {
   } */
   .footer-container {
     padding-left: 108px;
+    row-gap: 72px;
   }
 }
 @media screen and (min-width: 768px) and (min-resolution: 192dpi) {
